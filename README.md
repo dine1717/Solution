@@ -4,6 +4,15 @@
 First Question:
 
 Used Keras for getting the model architecture of VGG19. Used cosine similarity to get similarity score between two images. Used Fastapi to deploy two model and swagger ui ti check the results. 
+
+run command: uvicorn main:application --reload 
+
+![image](https://user-images.githubusercontent.com/73247157/147416128-77956a98-042a-4105-b404-e9babb15b57c.png)
+
+
+
+
+
 Created Docker image 
 
     FROM python:3.8-slim-buster
@@ -26,6 +35,10 @@ Once we create container ,we can port it to any platform (Cloud, Kuberenetes, On
 Second Question:
 
 Used Sentence Transformer to compute embeddings for the given dataset and for the input query. By using Retrain and Retrieval we can improve the results (Cross Encoder), this can score the relevancy of all docs based on the input query. Used Fastapi to deploy the code.
+
+run command : uvicorn smain:application --reload
+
+
 
 <img width="1240" alt="Screenshot 2021-12-26 at 10 44 23 PM" src="https://user-images.githubusercontent.com/73247157/147415984-4a8a1166-859d-4e92-960f-d4ede91b32df.png">
 <img width="1146" alt="Screenshot 2021-12-26 at 10 43 50 PM" src="https://user-images.githubusercontent.com/73247157/147415985-9bc83019-3c3c-42db-82b0-65fb51e1297c.png">
