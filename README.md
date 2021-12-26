@@ -28,5 +28,3 @@ Second Question:
 Used Sentence Transformer to compute embeddings for the given dataset and for the input query. By using Retrain and Retrieval we can improve the results (Cross Encoder), this can score the relevancy of all docs based on the input query. Used Fastapi to deploy the code.
 
 
-
-![image](https://user-images.githubusercontent.com/73247157/147415925-9b4c0f53-448c-40a2-b7db-c7b192d532e4.png)
