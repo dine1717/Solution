@@ -30,7 +30,7 @@ Created Docker image
 
 Auto Scaling:
 
-Once we create container ,we can port it to any platform (Cloud, Kuberenetes, OnPrem, Docker-Compose). In case of Kubernetes , we can autoscale pods(container) depending upon its workload. This can be acieved using either Horizontal Pod Autoscaler (HPA) or Vertical Pod Autoscaler (VPA). HPA would auto scale the pods across different nodes in cluster. VPA would autoscale the pods within a worker node of Kubernetes cluster Lets consider we are using HPA. HPA monitors the metrics across all pods of a deployment. If the metrics indicate that the target threshold is breached, HPA sends a “Scale” request to the Kubernetes Master component. Kubernetes Master then scales out (or in) replicas as per the HPA re
+Once we create container ,we can port it to any platform (Cloud, Kuberenetes, OnPrem, Docker-Compose). In case of Kubernetes , we can autoscale pods(container) depending upon its workload. This can be acieved using either Horizontal Pod Autoscaler (HPA) or Vertical Pod Autoscaler (VPA). HPA would auto scale the pods across different nodes in cluster. VPA would autoscale the pods within a worker node of Kubernetes cluster Lets consider we are using HPA. HPA monitors the metrics across all pods of a deployment. If the metrics indicate that the target threshold is breached, HPA sends a “Scale” request to the Kubernetes Master component. Kubernetes Master then scales out (or in) replicas as per the HPA request.
 
 
 Second Question:
