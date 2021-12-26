@@ -10,6 +10,7 @@ run command: uvicorn main:application --reload
 ![image](https://user-images.githubusercontent.com/73247157/147416128-77956a98-042a-4105-b404-e9babb15b57c.png)
 
 
+<img width="1246" alt="Screenshot 2021-12-26 at 11 28 53 PM" src="https://user-images.githubusercontent.com/73247157/147416365-00d48a41-7c77-4c9b-a189-a31fe8943e02.png">
 
 
 
