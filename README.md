@@ -3,7 +3,7 @@
 
 First Question:
 
-Used Keras for getting the model architecture of VGG19. Used cosine similarity to get similarity score between two images. Used Fastapi to deploy two model and swagger ui ti check the results. 
+Used Keras for getting the model architecture of VGG19. Used cosine similarity to get similarity score between two images. Used Fastapi to deploy two model and swagger ui to check the results. 
 
 run command: uvicorn main:application --reload 
 
