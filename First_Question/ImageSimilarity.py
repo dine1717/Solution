@@ -98,12 +98,12 @@ def feat_img(img_path):
 
 
 
-f1 = feat_img("bike.jpg")
-f2 = feat_img("tiger.png")
+#f1 = feat_img("bike.jpg")
+#f2 = feat_img("tiger.png")
 
 
 
-calculate_similarity(f1, f2)
+#calculate_similarity(f1, f2)
 
 def feat_img_download(url,name):
     response = requests.get(url)
