@@ -45,4 +45,8 @@ run command : uvicorn smain:application --reload
 <img width="1146" alt="Screenshot 2021-12-26 at 10 43 50 PM" src="https://user-images.githubusercontent.com/73247157/147415985-9bc83019-3c3c-42db-82b0-65fb51e1297c.png">
 
 
+Data and pickle files can be downloaded from the below link 
+
+https://drive.google.com/drive/folders/1MXu63_qpwSCWIa_ERO5Fze_QTvyBvfaT?usp=sharing
+
 
